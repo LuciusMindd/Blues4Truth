@@ -10,13 +10,6 @@ function News({cardEmoji,cardBlurbt,cardHeadert,cardSubtitlet,cardPict}) {
         <div className="border-3 rounded-3xl p-4">
           <span className="text-4xl">{cardEmoji}</span>
           <p className="mt-0">{cardBlurbt}</p>
-          <button
-            type="button"
-            className="mt-3 px-4 py-2 text-white rounded hover:bg-white-600 transition"
-            onClick={() => window.alert('news card button clicked')}
-          >
-            Go to App
-          </button>
         </div>
       </div>
     </div>

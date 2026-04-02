@@ -8,9 +8,9 @@ function App() {
     <BrowserRouter>
       <nav>
         <Link to="/home">Home</Link> |{" "}
-        <Link to="/about">About</Link> |{" "}
-        <Link to="/profile">Showcase</Link> |{" "}
-        <Link to="/journal">Updates </Link>
+        <Link to="/about">Topics</Link> |{" "}
+        <Link to="/profile">Mini Games</Link> |{" "}
+        <Link to="/journal">Profile </Link>
       </nav>
 
       <Routes>
