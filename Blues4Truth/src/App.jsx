@@ -13,7 +13,7 @@ import Minigamesicon from "./assets/minigames.png";
 import Profileicon from "./assets/profile.png";
 function App() {
   return (
-    <BrowserRouter>
+     <BrowserRouter basename="/Blues4Truth/">
       <nav>
         <Link to="/home">
           <img src={Homeicon} alt="Home" style={{ width: "30px", height: "30px" }} />
