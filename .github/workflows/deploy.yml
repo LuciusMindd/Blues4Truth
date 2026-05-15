@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./Blues4Truth
+        working-directory: ./Blues4Truth/pages
 
 
     steps:
